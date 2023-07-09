@@ -66,10 +66,11 @@ h1 {
 .progress_container .progress_line {
   width: 0%;
   height: 3px;
-  margin: -2px auto;
+  margin: auto;
   top: 50%;
   left: 3%;
   z-index: 1;
+  transform: translate(-3%, -3%);
   position: absolute;
   background-color: black;
 }
@@ -133,7 +134,7 @@ h1 {
   cursor: not-allowed;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   .progress_container {
     position: relative;
     width: 70%;
@@ -155,11 +156,11 @@ h1 {
   .progress_container .progress_line {
     width: 0%;
     height: 3px;
-    margin: -0.9px auto;
+    margin: -2px auto;
     top: 50%;
-    left: 3%;
+    left: 2%;
     font-weight: bolder;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(2%, -2%);
     position: absolute;
     background-color: black;
   }

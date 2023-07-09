@@ -23,7 +23,7 @@ prevBtn.addEventListener("click", (e) => {
 
     if (currentActive < 1) {
         currentActive = 1;
-    } console.log(currentActive)
+    }
     updateMe();
 })
 
